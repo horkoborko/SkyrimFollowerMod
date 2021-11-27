@@ -1,0 +1,100 @@
+﻿//----------------------------------------------------------------------------------------------------------------------
+// Language Definition File for Skyrim Special Edition
+//
+//
+// Format:
+//
+//   [Game Languages] Section : Define languages and code pages.
+//
+//   <Language Name>[:<Variant Name>] = <Language Code>:<UTF-8 Handling>:<Local Code Page>
+//
+//   <Language Name> :
+//      User friendly language name. It is used for displaying on the UI and saving settings.
+//      Do not omit definition of "English", be sure to define this first.
+//
+//   <Variant Name> :
+//      Optional. User friendly name of the variant such as differences of code page.
+//      When defining variants and non-variants of a language, be sure to define non-variants first.
+//
+//   <Language Code> :
+//      Game specific language code.
+//
+//      Note for Oblivion :
+//          Same as the language name of Oblivion.ini/[General]/iLanguage value.
+//          However, Oblivion seems to support only the following language codes, so specify 0 for the other languages.
+//            0-English, 1-German, 2-French, 3-Spanish, 4-Italian
+//          This tool uses the language code to find the strings file for each language, but Oblivion doesn't have a strings file.
+//          So this value is not that important for now.
+//
+//      Note for Fallout 3 / Fallout NV / Skyrim LE / Skyrim SE :
+//          Same as the language name of <Game>.ini/[General]/sLanguage value.
+//          Unlike Fallout 4, seems to countries of the same language are not supported in these games.
+//          For example Spanish and Mexican-Spanish are both Spanish.
+//
+//      Note for Fallout 4 / Fallout 76 :
+//          Same as the language name of Fallout4.ini/[General]/sLanguage value.
+//
+//          NOTE:This code seems to be a FO4 unique code that is neither the country code of ISO 3166-1 / ISO 639-x.
+//               I could not find the language code that is not in my FO4 copy (Steam version),
+//               so the language codes may be incorrect in some languages.
+//               Please let me know if you know the exact language code.
+//
+//   <UTF-8 Handling> :
+//      How to handle UTF-8 code set.
+//          none : Never handling UTF-8
+//          autodetect : Auto-detect UTF-8. (Recommended)
+//          override : Override <Local Code Page> with UTF-8, so always processed with UTF-8.
+//
+//      Specify "autodetect" for games that support UTF-8, "none" for games that do not support it.
+//      Depending on the setting of <Local Code Page>, UTF-8 may be detected automatically by mistake. In this case, specify "none".
+//
+//   <Local Code Page> :
+//      Local code page name or identifier number of .NET Framework.
+//      See https://msdn.microsoft.com/en-us//library/windows/desktop/dd317756(v=vs.85).aspx
+//
+//      Note for Oblivion / Fallout 3 / Fallout NV :
+//          In these games, only the following five languages are officially localized:
+//              English, German, French, Spanish, Italian
+//          The other languages should be localized by modding, but I could not find which code page is used in these mods.
+//          So you need to set the code page exactly according to the localization mods you are using.
+//
+//      Note for Skyrim LE / Skyrim SE / Fallout 4 / Fallout 76:
+//          In these games, both UTF-8 and local code page are available,
+//          although specify the your local code page here (UTF-8 characters can be automatically identified).
+//          For languages that originally use UTF-8 like Chinese/Korean/Japanese, specify 1252 here.
+//          Because even in these languages, non-UTF-8 string seems to read as 1252.
+//
+//----------------------------------------------------------------------------------------------------------------------
+
+[Game Languages]
+
+English=English:autodetect:1252		//Do not omit "English", be sure to define this first.
+Arabic=Arabic:autodetect:1256
+Baltic=Baltic:autodetect:1257
+Chinese=Chinese:autodetect:1252
+Chinese:BIG5=Chinese:autodetect:950
+Chinese:GBK=Chinese:autodetect:936
+Czech=Czech:autodetect:1250
+Danish=Danish:autodetect:1252
+Finnish=Finnish:autodetect:1252
+French=French:autodetect:1252
+German=German:autodetect:1252
+Greek=Greek:autodetect:1253
+Hebrew=Hebrew:autodetect:1255
+Hungarian=Hungarian:autodetect:1250
+Italian=Italian:autodetect:1252
+Japanese=Japanese:autodetect:1252
+Japanese:SJIS=Japanese:autodetect:932
+Korean=Korean:autodetect:1252
+Korean:UHC=Korean:autodetect:949
+Norwegian=Norwegian:autodetect:1252
+Polish=Polish:autodetect:1250
+Portuguese(Portugal)=Portuguese:autodetect:1252
+Portuguese(Brazil)=Portuguese:autodetect:1252
+Russian=Russian:autodetect:1251
+Spanish(Spain)=Spanish:autodetect:1252
+Spanish(Mexico)=Spanish:autodetect:1252
+Swedish=Swedish:autodetect:1252
+Thai=Thai:autodetect:1252
+Turkish=Turkish:autodetect:1254
+Vietnamese=Vietnamese:autodetect:1252

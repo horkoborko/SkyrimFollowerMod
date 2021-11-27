@@ -1,0 +1,307 @@
+﻿Change log of Lazy Voice Finder
+===============================
+
+Version 1.3.7 (2020/12/27)
+
+Features:
+- Add new column RelativePath : relative path from the Data folder of the audio file.
+
+Bug Fixes:
+- Fixed an IOException exception in some menus when launching LVF from MO2; MO2's MoveFile() emulation works a bit differently from the Windows API, so I added workaround code (thanks to @OregonPete for the detailed report!).
+- Fixed problem with ArgumentOutOfRangeException exception when reloading plugins.
+- Fixed an issue where search is performed in response to copy operations in the options dialog when the Search by Clipboard option is enabled.
+- Fixed an issue where the latest audio file (which was changed behind the tools) would not play. When the original file is updated, the cache is now invalidated and the audio file is loaded again.
+- Fixed an issue where data other than the selected item would be hit in the partial filter of the column filter. Changed to search item names for exact matches.
+Notes:
+- Fallout 76 support is still experimental and will likely not work properly.
+
+
+Version 1.3.6.1(Experimental) (2018/11/4)
+
+Features:
+- Fallout 76 support (Experimental)
+-- NOTE: I don't have FO76 (there is no money to purchase), all implementations are by speculation from information on the internet.
+-- Implementation is based on the assumption that the structure of esm/fuz/ba2 is (almost) unchanged from FO4.
+-- The installation path of FO76 is not automatically detected, please specify the path in game settings dialog.
+-- I don't know form version of FO76 plugin yet, the plugin of FO76 will treated as "unknown games" (operation should not be affected).
+-- Please report whether it worked. Also, please tell me if anyone knows the plugin version / form version of SeventySix.esm (You can see it in the plugin selection dialog).
+
+
+Version 1.3.6 (2018/9/30)
+
+Features:
+- 64 bit support: LazyVoiceFinder.exe is 64 bit, LazyVoiceFinder32.exe is 32 bit.
+- New tool buttons: Playback volume, Playback
+
+Changes:
+- Improvement of condition column: 180+ functions, condition formula and form ID can be displayed now.
+- Improvement of filter menu: Menu width slider, Incremental search, don't close with ALT key (useful for some Asian languages using IME).
+- Improvement of open plugin dialog: Incremental search
+- Add plugin languages: Chinese(BIG5), Chinese(GBK), Hebrew, Japanese(SJIS), Korean(UHC), Thai, Vietnamese
+- Custom language: The language and code page can be freely chosen from "(Custom)" in the plug-in language menu.
+- Replace the related DLL with the latest version. As a result, VC++ 2017 runtime is required.
+
+Bug Fixes:
+- Correct typos, Other UI bug fixes.
+- Fixed a bug that user created esl's voice file can not be load correctly.
+
+Limitations (Fixed in future updates):
+- Some function of the condition column is not displayed correctly except for Skyrim/Skyrim SE. This is because the same function ID is assigned to another function by the game. I am planning to look up the function IDs of other games from now on.
+- Part of the Russian UI remains English. I will ask the Anizorda to translate.
+
+
+Version 1.3.5 (2018/3/25)
+Features:
+- For Japanese language: Search by Migemo. You can search Japanese dialogue in Romaji and English words. It is necessary to install Migemo dictionary separately. TES/Fallout term dictionary is included.
+
+Changes:
+- Improved Russian translations. Thanks anizorda!
+- The loaded plugins is displayed in the status bar. The loaded pluiin can be confirmed with the tool tip of the status bar text, and the load order can be confirmed with the tool tip of the status bar icon.
+- You can play sound with the SPACE key now.
+- Sort column sort order is not reset after search now. You can reset the sort order in the right-click menu on the top left of the spreadsheet.
+- Display the number of rows of the selected cell in the status bar.
+- Added new columns: StringId
+- Added condition displayed in Conditions column: LocationHasKeyword (LE/SE/FO4), GetIsVoiceType (LE/SE/FO4), GetInWorldspace, GetInCell, IsPleasant, IsFleeing, IsActor, IsEssential, IsChild, IsProtected, IsUnique, GetIsInjured,IsAttacking, IsPowerAttacking, IsStaggered, IsRecoiling, IsPathing, IsInFavorState
+- The played sound is cached now. There is no delay in sound playback after the second time.
+- Added a swap dialog languages button to the option dialog.
+
+Bug Fixes:
+- Fixed a bug that may crash with the latest update of Fallout 4. It failed to read the CC content file, but now there is no problem.
+- Fixed a bug that sound will not be played with the next trigger after playing the sound without interruption.
+- Reduce screen disorder when loading data.
+- Fixed a bug where the tool crashes when no games are installed.
+- Re-cording to load conditions. This should greatly improve the display of the condition column.
+- Re-coding plugin's load order. A bug in which vanilla plugins are placed under load orders has been fixed.
+- Fixed message localization missing: Option dialog - Language tooltip
+- Many other minor fixes and improvements.
+
+Version 1.3.4 (2018/1/6)
+Features:
+- Light master file (.esl) support on Fallout4/Skyrim SE. I don't have the Creation Club content that having voice files, so I don't know exactly the asset path of voice files. So I assumed that Creation Club content "ccxxxsse001 - foobar.esl" could have either "sound/voice/ccxxxsse001/..." or "sound/voice/ccxxxsse001-foobar/...". Please let me know if there is any problem.
+
+Changes:
+- The column name "AO_Comment" has been changed to "Keyword".
+- Improve spreadsheet columns; Display sort arrow to the left of column name, add tool tip.
+- Column names are now sorted by name in the column header right-click menu.
+- Changed the default sort order from Index:FormId:ResponseNum to Index:PluginName:FormId:ResponseNum:VoiceType:BsaName:FullPath. When columns are sorted, another columns will be sorted in this order.
+- Improved operation of text box on dialog box. You can now clear the value with "X" button.
+
+Bug Fixes:
+- Fixed load order of plugins not described in plugins.txt; Ensure that esp is not loaded before esm. Since this tool does not read plugins.txt on TES4/FO3/FNV, load order will affected by this fix. Basically it will be in the same load order as xEdit so there should be no problem.
+- Other minor fixes.
+
+Version 1.3.3 (2017/11/23)
+Features:
+- Added AO_Comment column: Avairable on Fallout4 only. Keywords of AO_Comment System are shown (DIAL:KNAM record, a mechanism for providing a keyword indicating a situation at a specific position to a companion). Thanks to Thuggysmurf@NexusMods for providing information on this feature and suggesting!
+
+Changes:
+- Stop audio when playing the same voice as the voice being played. Thanks to UbiSergei@NexusMods for providing this idea!
+- Redone internal processing of audio playback. Since I'm not a bit confident, please report any problems with audio playback.
+
+Bug Fixes:
+- Fixed a bug that was sorted in the reverse spreadsheet order and copied when copying file name / asset path from right click menu.
+- Fixed a bug that the partial filter does not work as intended. The State column should now be filtered correctly.
+- Fixed a bug that did not take effect immediately on the spreadsheet when changing the row height.
+
+Version 1.3.2 (2017/9/17)
+Features:
+- You can export audio files from the spreadsheet right click menu. You can export files of the selected rows at once. The export destination folder is '<Install folder>/Export'. Files are always overwritten. You can cancel the export process with the 'Pause' key. Since it is unexpected to use exporting in large quantities, please use other tools such as Yakitori Audio Converter.
+
+Bug Fixes:
+- Fixed a bug that icon in search box disappeared.
+- Spreadsheet filter: Fixed a bug that partial filter turns on irrespective of previous selection when filter is opened.
+- Spreadsheet filter: Correct operation defect of partial filter.
+- Changed the format of .wav file extracted from .ogg file from 32bit-PCM to 16bit-PCM (TES/FO friendly).
+
+Version 1.3.1 (2017/7/14)
+Bug Fixes:
+- Improved Russian translations. Thanks anizorda!
+- Fixed a bug where search results flicker.
+- Fixed a bug where all search text was not selected when activating the tool window.
+
+Version 1.3.0 (2017/7/12)
+Part of the Russian translation is still a google translation. It will be updated as soon as calibration is completed.
+
+Features:
+- You can now reload the current files using the menu and tool button.
+- Added a list of recently used files to file menu.
+
+Changes:
+- Search history can now be cleared. (at the end of the search history menu)
+- You can now toggle the log window using the menu and status bar button.
+- You can now select all the text when you click on the search text box.
+- Icons of games not installed are now changing slightly.
+
+Bug Fixes:
+- Fixed bug that file can never be opened when selecting game mode not installed.
+
+
+Version 1.3.0beta (2017/7/9)
+This update focuses mainly on improving UI and searchability.
+In order to avoid bugs and improve development efficiency, changed the required version of .NET from 4.0 to 4.61. Since .NET 4.61 should work on Windows 7 or later, I think that there is no big problem. Please report if there is any inconvenience.
+
+Features:
+- UI redesign: new toolbar, modern and resizable search box, new tool buttons, new icons etc.
+- Redesign of search function:
+-- New saerch mode: And search/Or search/Prefix matching/Suffix matching. For those who are not used to regular expressions. Internally it will be searched with regular expressions.
+-- Real time search: It is not strictly real time because search processing is expensive and there is a possibility that UI operation becomes heavy. Start searching for about 1 second later.
+-- Improve search performance
+-- Word match option: You can prevent "Goodbye" from hitting even if you search by "bye". In languages that don't separate words with spaces such as Chinese/Japanese, there may be no use for them.
+-- New search history: You can call up the search target/search options saved in the search history together.
+- New voice operation menu:
+-- Copy Voice File/Copy Voice File as WAV Format/Rename and Copy Source File with Clipboard Text
+-- Copy Selected Text/Copy File Names of Selected Rows/Copy Asset Paths of Selected Rows (These supports multiple selection)
+- New state "Master Record Reference" : A state for identifying a record information reference from the master plugin.
+- New option "Read plugins within voice path as master" : Some plugins replace the voice files of other plugins without master definition. Check this option to complement the dialogue with record of plugins that within voice path.
+- Pause key/menu/tool button to stop audio playback/search.
+
+Changes:
+- Changed the required version of .NET from 4.0 to 4.61.
+- Voice operation menu can be displayed with menu key on the keyboard.
+- The selection of the cell is not changed when the voice operation menu is displayed. Instead of highlighting selected lines with row background color
+- Ctrl+Enter does not switch search targets if language of dialogue 2 is not specified.
+- The row height option has been relocated from the tool bar to the options menu.
+- When searching from the text copied to the clipboard, if the text ends with the extension of the voice file, it searches as the file name.
+
+Bug Fixes:
+- Fixed a bug in renaming voice files with dialogue text.
+- Fixed a bug that v1.2.4 and later, numbers and and mnemonics disappeared on game mode menus.
+- Fixed the other bugs that users would not notice.
+- Fixed Russian translation. Thanks anizorda!
+
+Version 1.2.4 (2017/6/21)
+This update mainly focused on small improvements and bug fixes noticed in my mod translation work.
+Features:
+- Renamed Category column to Category/Subtype and displayed dialogue-subtype (DIAL:SNAM) together. The value such as Power Attack/Block will be displayed, it will be easier to grasp the situation of the dialogue. Subtype is not displayed in TES4/FO3/FNV.
+- Now the installation folder of the game can be explicitly set in the settings dialog. It is useful when the tool does not recognize the game folder or when using another game folder.
+- Added an option to rename edit/extracted voice files with dialogue text. It should be easy to distinguish when opening many voice files. Note that the file name after renaming can be up to 100 characters, but it may be shorter depending on the depth of the installation folder of this tool.
+
+Changes:
+- Added conditions that can be displayed in Conditions column:
+-- Race, InFaction
+-- Player reference only: Sneaking, Running, InInterior, Raining, Snowing, Cloudy, Swimming, InCombat, RidingHorse, Sprinting, Blocking, Trespassing
+- I noticed that running the xWMAEncode.exe requires the Visual C ++ 2010 runtime libraries (msvcp100.dll and msvcr100.dll), so I added them to the documentation (thanks to Skyrim Mod Database comments). DLLs placed on side-by-side are never updated by Windows Update, there is a danger of security, so I don't bundle these essential DLLs. Please download from the link of the description/readme.
+
+Bug Fixes:
+- Re-fixed a bug where the folder name may be displayed incorrectly instead of "Loose" in the Bsa Name column.
+- Fixed a bug where the Conditions column was not filtered properly. "not PlayerGender: Male" no longer hits when filtering with "PlayerGender: Male". I also made some other bug fixes on the filter.
+- Fixed a bug that BSA name rules of only one line can not be set correctly in settings dialog.
+- Fixed a bug that displayed an empty open dialog for uninstalled games.
+
+Version 1.2.3 (2017/6/16)
+Bug Fixes:
+- Fixed a bug where the folder name may be displayed incorrectly instead of "Loose" in the Bsa Name column.
+- Fixed a bug that would result in an ArgumentException exception when loading the plugin that the game is not installed. (Thanks for bug report, bythetwinmoons!)
+- Fixed a typo in Data/GameLang_SkyrimSE.txt.
+
+Version 1.2.2 (2017/6/7)
+Bug Fixes:
+- Fixed Russian translation.
+
+Version 1.2.1 (2017/6/6)
+Features:
+- Russian UI support. Great appreciation to translator anizorda!
+- Added option that game mode automatic selection by plugin type. Available when opening with "File - Open" menu or drag & drop. When opening multiple files, select by the first plugin type. Don't auto-selection if plugin type is unknown or patch.
+
+Changes:
+- Now works even if the game is not installed. In this case, you can't open from the plugin list. Please note that all information is not displayed without base game.
+
+Version 1.2.0 (2017/6/3)
+Features:
+- Support Oblivion/Fallout 3/Fallout New Vegas.
+-- Support for old format BSA files.
+-- Support for mp3/ogg format.
+- Added "Fit Columns to Window" option.
+
+Changes:
+- Menus/Settings dialog/Shortcut keys have been redesigned with the addition of supporting games.
+- Abolition of State "Not Localized" (because bit annoying). Localized/Not localized can be confirmed with the message at plugin loading.
+- Change file configuration of tool.
+-- Aggregate the files of the external library into the Lib folder.
+-- Change the name and format of the game language definition file. New file name is Data/GameLang_*.Txt, which is separated for each game.
+- Category, Emotion column now shows appropriate values for the each game.
+- Clarified the function of the "vanilla" button in the plugin list dialog, made it to select vanilla + DLC plugins.
+- Plugin information message displayed when loading plugins.
+- Change the display format of Conditions column. Appropriate display according to the type of object to be compared with GetIsID is made. Support for negative conditions.
+- Decided to define the display language of the dialogue for each game.
+
+Bug Fixes:
+- Fixed a bug where display and operation when the sound file is only LIP is invalid.
+- Fixed a bug where the display was incorrect if the sound file name contained a period.
+- Fixed a bug that default BSA button does not work in setting dialog.
+- Fixed a bug that the partial filter malfunctions when there is a value including a comma in the Conditions column.
+- Fixed a bug where condition was not displayed correctly in Conditions column. Conditions column values became more accurate.
+- Fixed a bug that caused an exception when filtering a value containing "[" / "]" in the Conditions column.
+- Fixed a bug that loose strings file would not load if "Ignore loose voice files in Data folder" option is checked.
+
+Version 1.1.0 (2017/5/19)
+Features:
+- Fallout 4 support:
+-- FO4 plugin format support. However, there are limitations on the information that can be read, the next column is always blank: Conditions
+-- BA2 format support. However, only BA2 files of the "GNRL" format are supported (that is, texture BA2 files can not be read).
+- Additional columns : Script Notes, Edits, Prompt
+
+Changes:
+- Redone the language definition file. TesLanguages.txt has been renamed to GameLanguages.txt and its format has been changed.
+- Improvement of clipboard monitoring method. The problem that clipboard behavior is wrong when used with OpenOffice has been solved.
+- Changed the definition of BSA/BA2 files of base game, and added definitions of mapping rules between plugins and BSA/BA2 files. Both can be set in the options dialog.
+
+Bug Fixes:
+- Improvement of state "Overridden". Due to duplication of file names, when overriding between file storage format (BSA/BA2/loose) and file format (fuz/xwm/wav) occurred, this state was surely set to this state.
+- Improve accuracy of overriding of voice files. Faithfully to the engine of vanilla, I made it impossible to override fuz with xwm without lip.
+- Fixed a bug that audio editing did not work when the tool was installed in a path containing blanks.
+
+Version 1.0.5 (2017/3/24)
+Changes:
+- Added Data/TesLanguages.txt file which defines the plugin languages. You can add any language or code page to this file. See the comments in the file.
+- In some languages, there is a fact that the Creation Kit may crashes unless you convert the strings in the plugin to a local code page. For example in Japanese need to convert to Shift-JIS code page. If you want to open a plugin that have such a local code page, add the definition of Data/TesLanguages.txt file.
+
+Bug Fixes:
+- Fixed a bug where Topic Text does not word-wrap.
+
+Version 1.0.4 (2017/3/6)
+Features:
+- Added CSV export feature. You can export the currently displayed record to a CSV file. Choose the option that suits your spreadsheet application in the export CSV dialog.
+
+Version 1.0.3 (2017/3/6)
+Features:
+- Additional columns : Topic FormId, Topic Edid, Topic Text, Quest FormId, Quest Edid, Quest Name, Category, Emotion, Conditions
+
+Bug Fixes:
+- Fixed a bug where when searching with formid from clipboard, formid with 'a' - 'f' in the first two characters does not hit.
+
+Version 1.0.2.1 (2017/3/5) : Maintenance release
+Bug Fixes:
+- Fixed a bug where some Form Id was not displayed properly like "03FFFFFF". It was caused by the modification of v1.0.2. Sorry about that!
+
+Version 1.0.2 (2017/3/5)
+Changes:
+- The 'State' column now displays as an icons.
+- Slightly improving the performance of the code page determination algorithm.
+- I decided to give the load order at the beginning of FormId like xEdit/xTranslator (does not always start with "00"). Instead we added a column "FormId without Load #" for FormId which does not have a load order. Please use both depending on the purpose.
+- When searching FormId with the clipboard, search using regular expressions ignoring differences in load order now. I did this because loading order of other tools is not always the same.
+
+Bug Fixes:
+- Fixed a bug where UTF-8 text with length 1 was not displayed correctly. The algorithm to determine UTF 8 was wrong.
+- Fixed a bug that Index value of overridden master record is incorrect.
+
+Version 1.0.1 (2017/3/3)
+Features:
+- Search by clipboard : Automatically search with the text copied to the clipboard. You can toggle this option in the options menu. It may be handy when used with xEdit or xTranslator. The search target is automatically switched according to the format of the copied text as follows:
+-- Start with Form Id : Form Id
+-- Start with Form Id enclosed in '[]' : Form Id
+-- Editor id enclosed in '<>' : Edid
+-- The other case : Dialogue 1 or Dialogue2 (the last selected dialogue)
+- Search History : Record up to 10 search histories. You can recall with a drop-down of the text search box.
+
+Changes:
+- The text search box is now cleared when loading the plugin.
+- Improved UI of settings dialog (icon, text).
+- Added shortcut keys: F5=open, F7/F8=game mode selection, Ctrl+1~Ctrl+5=change search target
+- Improved error handling.
+- Improved auto complete of text search box. Auto complete based on actual data of search target column. You can toggle this option in the options menu. File LazyVoiceFinder_autocomp.ini is no longer used.
+
+Version 1.0.0 (2017/3/1):
+- Initial release.
+
+//

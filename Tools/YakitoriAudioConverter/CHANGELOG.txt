@@ -1,0 +1,60 @@
+﻿Yakitori Audio Converter - Convert fuz-xwm-wav-various audio files by BowmoreLover
+https://www.nexusmods.com/skyrim/mods/73100
+https://www.nexusmods.com/skyrimspecialedition/mods/17765
+https://www.nexusmods.com/fallout4/mods/9322
+
+CHANGELOG
+
+** Version 1.4 (2018/6/4)
+In this version, you need to install it in a clean folder. Do not overwrite the old version folder.
+
+Features:
+-Support FO4 BA2/Skyrim SE BSA format.
+-Output folder history: You can recall the output folder you used before (max 10).
+-File status dialog: You can see the status of each files. It is especially useful for checking error messages for each files. You can show it from the right-click menu on the file.
+
+Changes:
+-In order to avoid bugs and improve development efficiency, changed the required version of .NET Framework from 4.0 to 4.6.1.
+-Bundled xWMAEncode.exe
+-Scrollable option panel: You can scroll conversion options panel.
+-New option "Create subfolders" : For files added by opening folders or BSA, create subfolders in the output folder. "Subfolder" will determined based on the opened folder path, or the path of opened BSA, so this function does not work when opening individual files.
+-Improve conversion cancellation. Now you can cancel immediately while processing external processes such as ffmpeg.
+-Now you can convert from video format to audio format, and you can convert audio files (other than .wav) eeach other.
+-Changed the configuration of the installation files.
+-Many minor improvements.
+
+Bug fix:
+-Correct typos.
+-Fixed a bug that special characters included in file names in BSA are not processed correctly. I was assumed that BSA contained the code page 1252 characters.
+-Many minor bug fixes
+
+** Versiojn 1.3 (2016/2/4)
+Features:
+-From the right-click menu of the file list, you can open input/outpuf file and input/output folder and input bsa file. If input file is in bsa file, to open it extract to temporary folder. If the fuz file, to open it extract xwm to temporary folder.
+-When you double-click a file in the file list, you can open input file. When you double-click the "Converted" in the status column, you can open output file.
+Changes:
+-The text file name of the command help, change to a meaningful name.
+-Improvement and localization of the error message.
+-Simplification of the error message. Stack trace log becomes optional, you can switch from the options menu.
+Bug fix:
+-Fix problem that when right-click on checkbox in file list, list of files will not be re-drawn.
+-Fix problem that when show the "About" dialog, re-drawing problem of the file list is not reset correctly.
+
+** Versiojn 1.2 (2016/2/3)
+- All of the conversion settings are saved to ini file. Settings will be carried over to the next startup.
+- If you install FFmpeg, you can convert from general video formats (avi, flv, mpg, mp4, etc.). Not tested so much, the success of the conversion depends on the specifications of FFmpeg, but it has been good conversion in my stock of the video files (flv, wmv, mp4). Please specify additional arguments when there is a problem.
+- (Bug fix) Fix "No such file or directory" error on external commands when there is a continuous space in the file name.
+- (Bug fix) Improvement at the UI language switching.
+
+** Versiojn 1.1 (2016/2/2)
+- Mod name was changed to "Yakitori Audio Converter" from "Yet Another Audio Converter". Because I noticed that the other tool of the same name exists in the world, so in order to avoid misunderstanding. When I thought about next naming, I was just eating yakitori, so I had named this.
+- Additional percentage options of the list of the sound volume. You can adjust a little more finely sound volume.
+- Additional text boxes to specify the additional argument for LAME and FFmpeg. If you have knowledge of the command argument, you can free to add additional argument to LAME and FFmpeg. In FFmpeg, two kinds of additional arguments can be specified. "Additional arg." is argument for the (FFmpeg's) input file, "Additional arg. 2" is argument for the (FFmpeg's) output file. Please be aware of the proper use of two additional arguments.
+
+** Versiojn 1.0.1 (2016/2/1)
+- When the conversion using the FFmpeg, you can change sound volume.
+
+** Versiojn 1.0 (2016/2/1)
+- First release
+
+//

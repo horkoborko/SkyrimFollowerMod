@@ -1,0 +1,775 @@
+		// migemo-dictの追加辞書(Skyrim用語辞書)
+		// 最終更新: 2018/03/25 BowmoreLover
+		// 本辞書の用途について:
+		// ・migemo-dictにマージすることを想定した追加辞書
+		// ・辞書キーを置き換えるのではなく、候補列への置き換え/追加を想定している
+		// ・migemo-dictとは異なり、本ファイルではタブで始まる行はコメント扱い
+		// 本辞書の内容:
+		// ・バニラ公式訳から手動で用語を抽出したもの。
+		//
+		//	作者用のメモ：続きはinfo:namで検索して >33531から、LVFで3792から
+
+blood of coldharbour's daughter	コールドハーバーの娘の血
+goddess of the dusk and dawn	黄昏と暁の女神	黄昏と暁の神
+daughters of coldharbour	コールドハーバーの娘
+daughter of coldharbour	コールドハーバーの娘
+emperor pelagius septim	皇帝ペラギウス・セプティム
+coldharbour's daughter	コールドハーバーの娘
+jarl idgrod ravencrone	イドグロッド・レイヴンクローン首長	首長イドグロッド・レイヴンクローン
+jarl ulfric stormcloak	ウルフリック・ストームクローク首長	首長ウルフリック・ストームクローク
+satakal the worldskin	ワールドスキンのサタカル
+broken tower redoubt	ブロークン・タワー要塞
+bruca's leap redoubt	ブルカズリープ要塞
+emperor pelagius iii	皇帝ペラギウス三世	皇帝ペラギウス３世	皇帝ペラギウス3世
+friga shatter-shield	フリガ・シャッター・シールド
+jarl laila law-giver	ライラ・ロー・ギバー首長	首長ライラ・ロー・ギバー
+white-gold concordat	白金協定
+clan shatter-shield	シャッター・シールド家
+dragon of the north	北方の竜
+four shields tavern	フォー・シールズ
+honorhall orphanage	オナーホール孤児院
+pelinal whitestrake	ペリナル・ホワイトストレーク
+the song of pelinal	ペリナルの歌
+akaviri sculptural	アカヴィリ彫刻
+emperor titus mede	皇帝タイタス・ミード
+jarl of hjaalmarch	ハイヤルマーチの首長	ハイヤルマーチの族長
+jarl of winterhold	ウィンターホールドの首長	ウィンターホールドの族長
+skorm snow-strider	スコルム・スノー・ストライダー
+candlehearth hall	キャンドルハース・ホール
+duke of rimfarlin	リムファーリン公
+ivarstead vilemyr	イヴァルステッド・ヴァイルマイヤー
+jarl of eastmarch	イーストマーチの首長	イーストマーチの族長
+jarl of falkreath	ファルクリースの首長	ファルクリースの族長
+jarl of haafingar	ハーフィンガルの首長	ハーフィンガルの族長
+jarl olaf one-eye	隻眼のオラフ首長
+magister tendixus	賢者テンディクス	テンディクサス教官
+red eagle redoubt	赤鷲要塞
+sibbi black-briar	シビ・ブラック・ブライア
+temple of dibella	ディベラ聖堂	ディベラの聖堂
+the eight divines	八大神
+the lunar lorkhan	月夜のロルカーン
+unrelenting force	揺るぎ無き力
+adamantine tower	アダマンチンの塔
+aldmeri dominion	アルドメリ自治領	アルドメリ・ドミニオン
+clan battoe-born	バトル・ボーン家	バトル・ボーン族
+constance michel	コンスタンス・ミシェル
+cyrodilic empire	シロディール帝国
+dark brotherhood	闇の一党
+dead man's drink	デッドマンズ・ドリンク
+fifd of new teed	ニューテードのフィフド
+galmar stonefist	ガルマル・ストーンフィスト	石拳のガルマル
+gelnumbria moors	ゲルナンブリア・ムーア
+glenumbria moors	グレナンブリア湿原
+high king torygg	上級王トリグ	トリグ上級王
+jarl of dawnstar	ドーンスターの首長	ドーンスターの族長
+jarl of markarth	マルカルスの首長	マルカルスの族長
+jarl of solitude	ソリチュードの首長	ソリチュードの族長
+jarl of whiterun	ホワイトランの首長	ホワイトランの族長
+jerall mountains	ジェラール山地	ジェラール山	ジェラール山脈
+khajiit caravans	カジート・キャラバン
+mirabelle ervine	ミラベル・アーヴィン
+mysterium xarxes	ザルクセスの神秘	ザルクセスの神秘の書
+nibenean culture	ニベン文化
+original spirits	原初の魂
+pelagius the mad	狂王ペラギウス
+penitus oculatus	ペニトゥス・オクラトゥス
+the nine divines	八大神
+amulet of kings	王者のアミュレット
+black sacrament	黒き聖餐
+bthalag-zturamz	ベタラグ=ズーラム	ベタラグ・ズーラム
+elisif the fair	公平なエリシフ
+ennodius papius	エノディウス・パピウス
+forsworn leader	フォースウォーンの頭	フォースウォーンの首領	フォースウォーンのリーダー
+general tullius	テュリウス将軍
+hjaalmarch hold	ハイヤルマーチ要塞
+house of hlaalu	フラール家
+imperial legion	帝国軍
+jarl of morthal	モーサルの首長	モーサルの族長
+jarl ravencrone	レイヴンクローン首長	首長レイヴンクローン
+jerall mountain	ジェラール山地	ジェラール山	ジェラール山脈
+kemillith torom	ケミリス・トロム
+khajiit caravan	カジート・キャラバン
+lady schaudirra	シャウディラ夫人
+magister ilther	賢者イルサー	イルサー教官
+mount kilkreath	キルクリース山
+pelagius septim	ペラギウス・セプティム
+radiant raiment	レディアント装具店
+rimerock burrow	ライムロック窟
+shield-siblings	盾の同志
+skald the elder	長老スカルド
+song of pelinal	ペリナルの歌
+stig salt-plank	スティグ・ソルト・プランク
+summerset isles	サマーセット島	サマーセット諸島
+summurset isles	サマーセット島	サマーセット諸島
+suvaris atheron	スヴァリス・アセロン
+vojne mierstyyd	ヴォンヌ・ミエルスティード
+winking skeever	ウィンキング・スキーヴァー
+winterhold hold	ウィンターホールド要塞
+alessian order	アレッシア会	アレッシア派
+breath of kyne	カイネの息吹	カイネの息
+breath-of-kyne	カイネの息吹	カイネの息
+clan gray-mane	グレイ・メーン家	グレイ・メーン族
+daedric prince	デイドラの王子	デイドラの大公	デイドラ公
+eastmarch hold	イーストマーチ要塞
+ebonheart pact	エボンハート・パクト
+eldergleam sap	エルダーグリームの樹液
+falkreath hold	ファルクリース要塞
+fort dawnguard	ドーンガード砦
+gathrik's tomb	ガスリックの墓
+haafingar hold	ハーフィンヌガル要塞	ハーフィンガル要塞
+high priestess	女皇
+house telvanni	テルヴァンニ家
+immortal plane	不死の次元	不死の世界
+jarl of riften	リフテンの首長	リフテンの族長
+king wulfharth	ウルフハース王
+kolskeggr mine	コルスケッガー鉱山
+mankar camoran	マンカー・キャモラン
+ratway warrens	ラットウェイ・ウォーレンズ
+real barenziah	本物のバレンジア
+reman cyrodiil	レマン・シロディール
+riften fishery	リフテン水産
+second serpent	セプ	第ニのヘビ	第２のヘビ	第2のヘビ
+septim dynasty	セプティム王朝
+shatter-shield	シャッター・シールド
+shield-brother	盾の兄弟
+sleeping giant	スリーピング・ジャイアント
+summerset isle	サマーセット島
+summurset isle	サマーセット島
+thalmor agents	サルモールのスパイ	サルモールの使者	サルモールの密偵	サルモールの密使	サルモール密偵	サルモール密使
+vampire hunter	吸血鬼ハンター
+きゅうだいしん	九大神
+alduin's wall	アルドゥインの壁
+ancient blood	古き血	いにしえの血	古の血	古代の血	太古の血
+ancient order	古き教団	いにしえの教団	古の教団	古代の教団	太古の教団
+bannered mare	バナード・メア
+battle-bornss	バトル・ボーン	バトル・ボーンズ	バトル・ボーン家	バトル・ボーン族
+blood horkers	ブラッド・ホーカース	ブラッド・ホーカーズ	ブラッド・ホーカー
+clavicus vile	醜いクラヴィカス	クラヴィカス・ヴァイル
+elder scrolls	星霜の書
+first serpent	サタク	第一のヘビ	第１のヘビ	第1のヘビ
+high hrothgar	ハイ・フロスガー	ハイ・フロスガル
+house of mora	モラ家
+imperial city	インペリアルシティ	インペリアル・シティ	帝都
+jarl balgruuf	バルグルーフ首長	首長バルグルーフ
+jarl siddgeir	シドゲイル首長	首長シドゲイル
+king moraelyn	モラエリン王
+lunar lorkhan	月夜のロルカーン
+markarth hold	マルカルス要塞
+master wizard	マスターウィザード	マスター・ウィザード
+master-wizard	マスターウィザード	マスター・ウィザード
+matera chapel	マテラ・チャペル
+psijiic order	サイジック会
+queen alfsigr	女王アルフシグル
+ra'athim clan	ラーシム一族
+silver bloods	シルバーブラッド	シルバー・ブラッド
+silver-bloods	シルバーブラッド	シルバー・ブラッド
+skaal village	スコール村
+thalmor agent	サルモールのスパイ	サルモールの使者	サルモールの密偵	サルモールの密使	サルモール密偵	サルモール密使
+thalmor spies	サルモールのスパイ	サルモールの使者	サルモールの密偵	サルモールの密使	サルモール密偵	サルモール密使
+the men-of-ge	ギー族
+thieves guild	盗賊ギルド
+titus mede ii	タイタス・ミードニ世	タイタス・ミード２世	タイタス・ミード2世
+whiterun hold	ホワイトラン要塞
+alain dufont	アライン・デュフォン
+broken tower	ブロークン・タワー
+bruca's leap	ブルカズリープ
+candlehearth	キャンドルハース
+captain volf	ヴォルフ船長
+court wizard	王宮魔術師
+dainty sload	デインティ・スロード	デインティ・スロード号
+darius shano	ダリアス・シャノ
+dragonsreach	ドラゴンズリーチ
+elder scroll	星霜の書
+four shields	フォー・シールズ
+house hlaalu	フラール家
+jagged crown	尖った王冠
+jarl dengeir	デンジェール首長	首長デンジェール
+jarl gjalund	グジャランド首長	首長グジャランド
+jarl hrongar	フロンガル首長	首長フロンガル
+jarl kraldar	クラルダー首長	首長クラルダー
+jarl of pale	ペイルの首長	ペイルの族長
+king eadwyre	イードワイヤー王
+legate rikke	リッケ特使	リッケ軍団長
+legionnaires	帝国軍	軍団
+masterwizard	マスターウィザード	マスター・ウィザード
+mortal plane	定命者世界	定命の者の次元	定命の者の世界
+neonymbiosis	ネオニンビオシス
+night mother	夜母
+nord tongues	ノルドの舌
+olaf one-eye	隻眼のオラフ
+old ehlnofey	古きエルノフェイ	旧エルノフェイ
+pelagius iii	ペラギウス三世	ペラギウス３世	ペラギウス3世
+psijic order	サイジック会
+psijiic monk	サイジック僧兵
+red mountain	レッドマウンテン	レッド・マウンテン
+shor's bones	ショールの骨
+silver blood	シルバーブラッド	シルバー・ブラッド
+silver-blood	シルバーブラッド	シルバー・ブラッド
+snow strider	スノー・ストライダー
+snow-strider	スノー・ストライダー
+sword-maiden	ソード・メイデン
+tiber septim	タイバー・セプティム
+uriel septim	ユリエル・セプティム
+はちだいしん	八大神
+alandro sul	アランドロ・スル
+aldmeretada	アルドメレタダ
+battle-born	バトル・ボーン
+black briar	ブラック・ブライア
+black-briar	ブラック・ブライア
+blue palace	ブルー・パレス
+brinehammer	ブラインハンマー	ブラインハンマー号
+cidhna mine	シドナ鉱山
+cloud ruler	曇王の神殿
+coldharbour	コールドハーバー
+dragon cult	竜教団
+high priest	大司祭	高司祭
+jagar tharn	ジャガル・サルン
+jarl elisif	エリシフ首長	首長エリシフ
+jarl erikur	エリクール首長	首長エリクール
+jarl igmund	イグマンド首長	首長イグマンド
+jarl ulfric	ウルフリック首長	首長ウルフリック
+jarl vignar	ヴィグナー首長	首長ヴィグナー
+lonely-gale	ロンリー・ゲイル
+mages guild	魔術師ギルド
+marobar sul	マロバー・サル
+missing god	不在の神
+moth priest	聖蚕の僧侶
+nightingale	ナイチンゲール
+nord tongue	ノルドの舌
+old hroldan	オールド・フロルダン
+pine forest	パイン・フォレスト
+poetic edda	エッダ詩歌集
+psijic monk	サイジック僧兵
+ria silmane	リア・シルメイン
+shor's bone	ショールの骨
+slave-queen	奴隷の女王
+soron jeles	ソロン・ジェレス
+spiced wine	スパイス入りワイン	香料酒
+st. alessia	聖アレッシア
+stormcloaks	ストームクローク
+thalmor spy	サルモールのスパイ	サルモールの使者	サルモールの密偵	サルモールの密使	サルモール密偵	サルモール密使
+time dragon	時のドラゴン
+tower mzark	ムザークの塔
+vvardenfell	ヴァーデンフェル
+white phial	ホワイトファイアル	白き小瓶
+white river	ホワイト川
+whitestrake	ホワイトストレーク
+attunement	アチューンメント	同調	調和	調律	調整
+battlemage	魔闘士	バトルメイジ
+blackreach	ブラックリーチ
+coronation	戴冠	戴冠式
+daggerfall	ダガーフォール
+dark elves	ダークエルフ
+deep elves	ディープエルフ
+dragon god	竜神
+dragonbone	ドラゴンの骨
+earthbones	アース・ボーンズ
+elder wood	エルダーウッド
+eldergleam	エルダーグリーム
+evette san	エヴェット・サン
+far shores	碧落の岸
+fourth era	第四紀	第４紀	第4紀
+frostfruit	フロストフルーツ
+glenumbria	グレナンブリア
+gray maybe	グレイ・メイビー
+gray-manes	グレイ・メーン	グレイ・メーンズ	グレイ・メーン家	グレイ・メーン族
+great hunt	グレートハント
+greybeards	グレイビアード
+hammerfell	ハンマーフェル
+heartlands	ハートランド
+high elves	ハイエルフ
+hjaalmarch	ハイヤルマーチ
+house dres	ドレス家
+house suda	スーダ家
+jarl korir	コリール首長
+jarl laila	ライラ首長	首長ライラ
+jarl maven	メイビン首長	首長メイビン
+jarl skald	スカルド首長	首長スカルド
+korvanjund	コルバンヤンド
+lighthouse	灯台
+lord dagon	デイゴン卿	デイゴン公	デイゴン神	神デイゴン
+mage guild	魔術師ギルド
+mir corrup	ミル・コラップ	ミル・コルプ
+morag tong	モラグ・トング
+morag-tong	モラグ・トング
+mythic era	神話紀	神話の時代
+nerevarine	ネレバリン	ネレヴァリン
+nettlebane	ネトルベイン
+nix hounds	ニックスハウンド	ニクスハウンド
+nix-hounds	ニックスハウンド	ニクスハウンド
+northwatch	ノースウォッチ
+queen lian	リアン女王
+saint jiub	聖ジウブ
+salt-plank	ソルト・プランク
+sancre tor	サンクレ・トール
+schaudirra	シャウディラ
+second era	第二紀	第２紀	第2紀
+sheogorath	シェオゴラス
+snow elves	スノー・エルフ	スノーエルフ
+st.alessia	聖アレッシア
+stormcloak	ストームクローク
+teleporter	転移門	ポータル	テレポーター
+titus mede	タイタス・ミード
+underforge	アンダーフォージ
+vivec city	ヴィベク・シティ	ヴィベクの町	ヴィベクの街
+windcaller	ウィンドコーラー
+winterhold	ウィンターホールド
+wolf queen	狼の女王
+wood elves	ウッドエルフ
+aetherium	エセリウム
+aetherius	エセリウス
+alchemist	錬金術師
+anonymous	匿名	著者不明
+arcanaeum	アルケイナエウム	アルカネウム
+arch mage	アークメイジ	アーク・メイジ
+arch-mage	アークメイジ	アーク・メイジ
+ashlander	アシュランド	アシュランダー	アッシュランダー
+ayleidoon	アイレイドーン
+barenziah	バレンジア	バレンシア
+braidwood	ブレイドウッド
+centurion	センチュリオン
+constance	コンスタンス
+cyrodilic	シロディール
+dagoth ur	ダゴス・ウル	ダゴス・ウーア	ダゴス・ウア
+dagoth-ur	ダゴス・ウル	ダゴス・ウーア	ダゴス・ウア
+dovahkiin	ドヴァーキン
+eastmarch	イーストマーチ
+ebonheart	エボンハート	エボンハート・パクト
+evergloam	エバーグローム
+falkreath	ファルクリース
+fang lair	ファング・レア
+first era	第一紀	第１紀	第1紀
+first god	最初の神
+fus ro da	揺るぎ無き力
+gor felim	ゴア・フェリム
+gray-mane	グレイ・メーン
+great war	大戦
+haafingar	ハーフィンヌガル	ハーフィンガル
+hagravens	ハグレイヴン
+heartland	ハートランド
+high king	上級王
+high rock	ハイ・ロック
+honorhall	オナーホール
+housecarl	私兵
+iliac bay	イリアック湾
+imedhnain	イメドゥナイン
+kemillith	ケミリス
+kilkreath	キルクリース
+kolskeggr	コルスケッガー
+ma'randru	マランドゥル
+mausoleum	霊廟	墓	陵
+men-of-ge	ギー族
+mierstyyd	ミエルスティード
+mirabelle	ミラベル
+mistwatch	ミストウォッチ
+molag bal	モラグ・バル
+molag-bal	モラグ・バル
+morrowind	モロウウィンド	モロウィンド
+mournhold	モーンホールド
+nightgate	ナイトゲート
+nix hound	ニックスハウンド	ニクスハウンド
+nix-hound	ニックスハウンド	ニクスハウンド
+nocturnal	ノクターナル
+nu-mantia	ヌマンティア
+orphanage	孤児院
+pale hold	ペイル要塞
+pale pass	ペイル峠
+parchment	羊皮紙
+proventus	プロベンタス
+reman iii	レマン三世	レマン３世	レマン3世
+rift hold	リフト要塞
+rimfarlin	リムファーリン
+s'rendarr	スレンダー
+sorcerers	ソーサラー	妖術師	魔術師
+sorceress	ソーサレス	妖術師	魔術師	女妖術師	女魔術師
+sotha sil	ソーサ・シル
+sovngarde	ソブンガルデ	ソヴンガルデ
+stonefist	ストーンフィスト	石拳
+summerset	サマーセット
+summurset	サマーセット
+symmachus	シムマチャス
+third era	第三紀	第３紀	第3紀
+valenwood	ヴァレンウッド
+walkabout	ウォークアバウト
+warhammer	戦鎚	戦槌
+wayshrine	祠
+witchmist	ウィッチミスト
+wulfharth	ウルフハース
+adrianne	エイドリアン
+adrienne	エイドリアン
+alessian	アレッシア	アレッシアの	アレッシア派	アレッシア派の
+archmage	アークメイジ	アーク・メイジ
+artifact	アーティファクト	秘宝	遺物
+betaniqi	ベタニキー
+boethiah	ボエシア
+canticle	カンティクル	カンティクルの木
+champion	王者	勇者
+clavicus	クラヴィカス
+covenant	カバナント
+cyrodiil	シロディール
+dark elf	ダークエルフ
+dawn era	深遠の暁紀
+dominion	ドミニオン
+dwarvish	ドワーフ
+ebonmere	エボンメア
+ehlnofex	エルノフェクス
+ehlnofey	エルノフェイ
+ennodius	エノディウス
+fultheim	フルサイム
+giordano	ジョルダノ
+greymoor	グレイムーア
+hagraven	ハグレイヴン
+high elf	ハイエルフ
+highland	ハイランド
+icewater	アイスウォーター
+immortal	不死
+imperial	インペリアル	帝国
+kagrenac	カグレナク
+khajiiti	カジート
+kynareth	キナレス
+laelette	ラレッテ
+magister	賢者
+malacath	マラキャス
+mantilla	マンティラ	マント
+markarth	マルカルス
+merethic	神話紀	神話の時代
+minegaur	ミネガウア
+minstrel	ミンストレル	吟遊詩人	放浪の詩人
+moorside	ムーアサイド
+moraelyn	モラエリン
+morihaus	モーハス	モリハウス
+nchylbar	ナイルバー
+necklace	首飾り	ネックレス
+new teed	ニューテード
+nibenean	ニベン
+northern	北	北の
+oblivion	オブリビオン
+oculatus	オクラトゥス
+padomaic	パドメイ
+praefect	軍事長官
+prophecy	預言	予言
+ra'athim	ラーシム
+redguard	レッドガード
+reman ii	レマン二世	レマン２世	レマン2世
+rimerock	ライムロック
+saarthal	サールザル
+sentinel	センチネル
+septimus	セプティマス
+shalidor	シャリドール
+siddgeir	シドジェール	シドゲイル
+snow elf	スノー・エルフ	スノーエルフ
+sorcerer	ソーサラー	妖術師	魔術師
+teleport	テレポート	転移	瞬間移動
+telvanni	テルヴァンニ
+tendixus	テンディクス	テンディクサス
+torbjorn	トールビョルン
+tribunal	トリビュナル
+trinimac	トリニマク	トリニマック
+tuwhacca	トゥワッカ
+vaermina	ヴァーミルナ
+whiterun	ホワイトラン
+windpeak	ウィンドピーク
+wood elf	ウッドエルフ
+1st era	第一紀	第１紀	第1紀
+2nd era	第二紀	第２紀	第2紀
+3rd era	第三紀	第３紀	第3紀
+4th era	第四紀	第４紀	第4紀
+agallon	アガロン
+akatosh	アカトシュ
+akaviri	アカヴィリ	アカヴィル
+alandro	アランドロ
+aldmeri	アルドメリ
+alessia	アレッシア
+alfsigr	アルフシグル
+alftand	アルフタンド
+almsivi	アルムシヴィ
+altmeri	アルテメリ	アルトメリ
+altmora	アルトモラ
+ancient	古き	古い	古代	古代の	太古	太古の	古	古の	いにしえの
+artaeum	アルテウム
+atheron	アセロン
+athynic	アシーニック
+atmoran	アトモーラ	アトモーラの
+auri-el	オリエル	アーリエル
+aventus	アベンタス
+balmora	バルモラ
+bretons	ブレトン
+bthalag	ベタラグ
+camoran	キャモラン
+chorrol	コロル	コロール
+dibella	ディベラ
+dungeon	ダンジョン	地下牢
+dwarven	ドワーフ	ドワーフの
+eadwyre	イードワイヤー
+empress	女皇	女帝	女王	女教皇
+fishery	水産	水産場
+gathrik	ガスリック
+gourmet	グルメ	美食家
+hajvarr	ハジバール
+helgird	ヘルグリッド
+helseth	ヘルセス
+hroldan	フロルダン
+khajiit	カジート
+kogoran	コゴラン
+letrush	レットラッシュ
+lorkhan	ロルカーン
+maccius	マッキウス
+marobar	マロバー
+mephala	メファーラ
+morgiah	モルジア
+mortals	定命者	定命の者	死すべき者
+morvath	モルヴァス	モヴァルス
+movarth	モヴァルス	モルヴァス
+nerevar	ネレヴァル
+numinex	ヌーミネックス
+orsimer	オーシマー
+padhome	パドーム	パドメ	パッドホーム
+padomay	パドメイ
+paragon	パラゴン
+pelinal	ペリナル
+penitus	ペニトゥス
+prophet	預言者	予言者
+psijiic	サイジック
+redoubt	要塞	砦
+resdayn	レスデイン	レスダイン
+satakal	サタカル
+shezarr	シェザール
+sidgeir	シドジェール	シドゲイル
+silmane	シルメイン
+skeever	スキーヴァー	ネズミ
+steward	執政	執事
+susanna	スザンナ
+suvaris	スヴァリス
+tamriel	タムリエル
+thalmor	サルモール
+thieves	盗賊	盗人
+tullius	テュリウス
+uriel v	ユリエル五世	ユリエル５世	ユリエル5世
+vilemyr	ヴァイルマイヤー
+warrens	ウォーレンズ
+wayrest	ウェイレスト
+yokudan	ヨクダ	ヨクーダ
+zturamz	ズーラム
+agents	密偵	使者	密使	エージェント	スパイ	工作員	諜報員	代理人	仲介人	仲介者
+akavir	アカヴィリ	アカヴィル
+akrash	アクラシュ
+al-esh	アレ=エシュ	アレ・エシュ
+aldmer	アルドマー	アルドメール	アルドメリ
+alduin	アルドゥイン
+alik'r	アリクル
+altmer	アルトマー
+animus	アニムス
+anuiel	アヌイエル
+atmora	アトモーラ
+aurbis	アービス	オルビス
+auriel	アーリエル
+ayleid	アイレイド
+betrid	ベトリッド
+blades	ブレイズ	刀剣
+bosmer	ボズマー
+breton	ブレトン
+burbag	バーバグ
+caller	召喚者
+chapel	チャペル
+chimer	チャイマー
+cidhna	シドナ
+daedra	デイドラ
+dagoth	ダゴス
+darius	ダリアス	ダリウス
+delvin	デルビン
+dragon	ドラゴン
+dufont	デュフォン
+dunmer	ダンマー
+dwemer	ドゥーマー	ドゥエマー	ドワーフ
+ervine	アーヴィン
+et'ada	原初の神々
+falmer	ファルマー	ファルメル
+fus ro	揺るぎ無き力
+galmar	ガルマル
+gianna	ジアーナ
+giants	巨人	ジャイアンツ
+grelod	グレロッド
+hjalti	ヒャルティ
+hlaalu	フラール
+ilther	イルサー
+jerall	ジェラール
+kazagh	カザフ
+legate	特使	軍団長
+madgod	マッドゴッド
+madmen	マッドマン
+magnus	マグナス
+mallus	マラス
+mankar	マンカー
+matera	マテラ
+michel	ミシェル
+mortal	定命者	定命の者	死すべき者
+mulush	ムルシュ
+mundus	ムンダス
+narsis	ナルシス
+nordic	ノルド	ノルドの
+pal la	パル・ラ
+papius	パピウス
+pariom	パリオム
+peliah	ペリア
+perrif	ペリフ
+portal	転移門	ポータル	テレポーター
+potema	ポテマ
+psijic	サイジック
+raerek	ラエレク
+rahgot	ラーゴット
+ratway	ラットウェイ
+rhiada	リアダ
+rodulf	ロダルフ
+rupgta	ラプトガ
+sancre	サンクレ
+septim	ゴールド	セプティム
+shazra	シャズラ
+sithis	シシス
+sunder	サンダー
+thu'um	スゥーム
+torygg	トリグ
+totems	トーテム
+umaril	ウマリル
+virane	ヴィレイン
+voltus	ヴォルタス
+xarlys	ザーリス
+xarxes	ザルクセス
+y'ffre	イフレ
+yokuda	ヨクダ	ヨクーダ
+aedra	エドラ	エイドラ
+agent	密偵	使者	密使	エージェント	スパイ	工作員	諜報員	代理人	仲介人	仲介者
+ahlam	アハラム
+alain	アライン
+alikr	アリクル
+allie	アリー
+anima	アニマ
+arkay	アーケイ
+azura	アズラ	アズーラ
+bards	バード	吟遊詩人	放浪の詩人
+bersi	ベルシ
+blade	刃	刀剣	刀	剣
+briar	ブライア
+bruma	ブルマ	ブルーマ
+chair	腰掛け
+cough	コホッ	コホ	ゴホ	ゲホ	ゲホッ	咳
+cyrod	シロド	シロディール
+dagon	デイゴン
+dovah	ドヴァ	ドヴァー
+dumac	デュマク
+elder	エルダー
+elven	エルフ	エルフの
+elves	エルフ
+ephen	エフィン
+felim	フェリム
+friga	フリガ
+froda	フロダ
+frost	フロスト
+garid	ガリド
+gelyn	ゲリン
+hoker	ホーカー
+husks	ハスク
+iliac	イリアック
+jagar	ジャガル	ジャガー
+jeles	ジェレス
+korir	コリール
+louis	ルイス
+lucan	ルーカン	リューカン
+maven	メイビン
+meeds	ハチミツ酒	蜂蜜酒	ミード
+molag	モラグ
+morag	モラグ
+nepos	ネポス
+niben	ニベン
+orkey	オルケイ	オーケイ
+pacts	パクト	契約	誓約	条約	協定
+palla	パルラ
+redya	レイダ	レディア
+reman	レマン
+reyda	レイダ
+rikke	リッケ
+robes	ローブ
+runes	ルーン	ルーン文字	罠
+satak	サタク	第一のヘビ	第１のヘビ	第1のヘビ
+serjo	セルジョ
+shano	シャノ
+sibbi	シビ
+skaal	スコール
+skald	スカルド	吟遊詩人	放浪の詩人
+skjor	スコール
+skorm	スコルム
+soron	ソロン
+sotha	ソーサ
+stool	椅子	腰掛け	ストール	スツール
+talos	タロス
+thane	従士
+tharn	サルン	サーン
+thuum	スゥーム
+tiber	タイバー
+titus	タイタス
+topal	トーパル	トパル
+torom	トロム
+toryg	トリグ
+uriel	ユリエル	ウリエル
+vojne	ヴォンヌ
+yffre	イフレ
+ysmir	イスミール
+akel	アケル
+ales	エール
+bard	バード	吟遊詩人	放浪の詩人
+camp	野営	野営地	キャンプ
+dova	ドヴァ	ドヴァー
+dres	ドレス
+edda	エッダ
+fifd	フィフド
+hags	ハグレイヴン	ハグ
+hist	ヒスト
+husk	ハスク
+jarl	族長	首長
+khan	カーン
+kyne	カイネ
+lian	リアン
+mane	メーン
+mani	マニ
+mara	マーラ
+mede	ミード
+meed	ハチミツ酒	蜂蜜酒	ミード
+moot	ムート
+mora	モラ
+moth	蚕	聖蚕
+nana	ナナ
+nirn	ニルン
+nord	ノルド
+olaf	オラフ
+orcs	オーク
+pact	パクト	契約	誓約	条約	協定
+pale	ペイル
+pavo	パボ
+rift	リフト
+robe	ローブ
+rune	ルーン	ルーン文字	罠
+stig	スティグ
+suda	スーダ
+tear	ティア	ティアー	テア
+tong	トング
+urag	ウラッグ	ウラグ
+vile	ヴァイル
+void	虚無	ヴォイド	ボイド
+volf	ヴォルフ
+writ	令状
+anu	アヌ
+bal	バル
+elf	エルフ
+fus	揺るぎ無き力	ファス
+gat	ガット
+gor	ゴア
+hag	ハグレイヴン	ハグ
+orb	オーブ
+orc	オーク
+ria	リア
+sep	セプ	第ニのヘビ	第２のヘビ	第2のヘビ
+sil	シル
+sul	サル	スル
+tor	トール
+xen	ゼン
+ur	ウル
+
