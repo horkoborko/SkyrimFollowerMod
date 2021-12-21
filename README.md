@@ -5,8 +5,8 @@ follower mod called Swims-With-Fishes (SWF), an Argonian mage.
 The goal is to first implement him as a default NPC needing only Skyrim
 and all of the DLCs to function. Eventually, he is going to feature a
 custom voice and have further customization from various beast race mods and
-RaceMenu. I am considering trying a custom quest, but that is not a priority
-for this particular project.
+RaceMenu, as well as other features that will make him distinct from the
+standard Skyrim followers.
 
 
 Tentative Roadmap
@@ -17,6 +17,9 @@ Tentative Roadmap
 
 	-Relocate SWF from Abandoned Prison to somewhere along the Sea of Ghosts (Tamriel 15,30?),
 	add camping static world objects there (see Tamriel 20,26 for inspiration).
+	
+	
+	-Give fish mechanic (gives slaughterfish steak/oysters for food, smaller fish for alchemy regeants)
 	
 	
 	-Change outfit to rags
@@ -46,7 +49,9 @@ Tentative Roadmap
 		*Install water spells from mod (https://www.nexusmods.com/skyrim/mods/66919) and reconfigure known spells list
 	
 	
-	-Add more dialogue (reminiscent of Kaidan/Inigo/Lucien, see their .esp files)
+	-Add more dialogue (reminiscent of Kaidan/Inigo/Lucien, see their .esp files) as opportunity to tell backstory & say other things
 	
 	
 More roadmap objectives will be added as I progress through creating the mod.
+
+Other features I want to add in the future: Romance path, quest(s), passive commentary (quests, locations), battle expletives, interaction with NPCs/custom followers
