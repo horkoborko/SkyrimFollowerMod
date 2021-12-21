@@ -43,7 +43,7 @@ Tentative Roadmap
 		*Argonian Fins (https://www.nexusmods.com/skyrim/mods/55707)
 		
 		
-	-Install water spells from mod (https://www.nexusmods.com/skyrim/mods/69474/?) and reconfigure known spells list
+	-Install water spells from mod (https://www.nexusmods.com/skyrim/mods/66919) and reconfigure known spells list
 	
 	
 	-Add more dialogue (reminiscent of Kaidan/Inigo/Lucien, see their .esp files)
