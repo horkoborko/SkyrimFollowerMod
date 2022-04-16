@@ -11,7 +11,7 @@ standard Skyrim followers.
 
 Tentative Roadmap
 
-1.3
+Pre-Release 1.3
 
 	-[Change his "default" dialogue responses to be more unique] See change below.
 	
