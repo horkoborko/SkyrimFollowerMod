@@ -25,8 +25,8 @@ Tentative Roadmap
 		
 	-Add more dialogue (reminiscent of Kaidan/Inigo/Lucien, see their .esp files) as opportunity to tell backstory & say other thing.
 	
-	-Relocate SWF from Abandoned Prison to somewhere along the Sea of Ghosts (Tamriel 15,30?),
-	add camping static world objects there (see Tamriel 20,26 for inspiration)
+	-[Relocate SWF from Abandoned Prison to somewhere along the Sea of Ghosts (Tamriel 15,30?),
+	add camping static world objects there (see Tamriel 20,26 for inspiration)] SWF relocated to a camp by the large, dungeon island between Dawnstar and Winterhold.
 	
 	-Give fish mechanic (gives slaughterfish steak/oysters for food, smaller fish for alchemy regeants)
 	
