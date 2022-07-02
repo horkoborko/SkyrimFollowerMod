@@ -40,6 +40,4 @@ Pre-Release 1.3
 	
 	
 	
-More roadmap objectives will be added as I progress through creating the mod.
-
-Other features I want to add in the future: Romance path, quest(s), passive commentary (quests, locations), battle expletives, interaction with NPCs/custom followers
+The backlog of everything I would like to implement for this mod can be found in the BACKLOG.md document.
