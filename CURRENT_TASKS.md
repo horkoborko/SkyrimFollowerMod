@@ -1,5 +1,8 @@
 # In Progress List
 
+FIRE: FIX INTRO NON-APPEARANCE BUG
+
+
 Transitioning between Intro and Follower quests
 
 Expanding fish dialogue
